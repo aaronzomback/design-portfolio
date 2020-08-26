@@ -39,7 +39,6 @@ header nav a {
   margin-right: 32px;
   text-decoration: none;
   color: black;
-}
 
   a {
   position: relative;
@@ -79,6 +78,7 @@ header nav a {
             transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
         }
     }
+}
 }
 
 
