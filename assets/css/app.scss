@@ -1,0 +1,72 @@
+---
+
+---
+
+@font-face {
+  font-family: "Moderat-Extended";
+  font-weight: 400;
+  src: url(/assets/fonts/Moderat-Trial-Extended-Regular.otf);
+}
+
+@font-face {
+  font-family: "Coriolis";
+  font-weight: 400;
+  src: url(/assets/fonts/Coriolis_trial-Regular.otf);
+
+}
+
+
+body {
+  font-family: "Moderat-Extended";
+  background-color: white;
+  max-width: 100vw;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 88px;
+}
+
+header nav a {
+  margin-right: 32px;
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  margin-left: 1000px;
+  margin-top: 80px;
+}
+
+.intro p {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 64px;
+  font-size: 48px;
+  width: 700px;
+}
+
+.is {
+  font-size: 37px;
+}
+
+.coriolis {
+  font-family: "Coriolis";
+  font-size: 37px;
+}
+
+footer { 
+  bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+}
