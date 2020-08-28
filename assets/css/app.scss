@@ -84,8 +84,10 @@ header nav a {
 .arrow {
   margin-left: 800px;
   top: 600px;
-  height: 150px;
-  width: 100%;
+   .img {
+     height: 100%;
+     width: 100%;
+   }
 }
 
 .intro p {
