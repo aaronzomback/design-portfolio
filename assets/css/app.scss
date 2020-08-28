@@ -23,7 +23,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 body {
   font-family: "Moderat-Extended";
   background-color: white;
-  max-width: 100%;
   margin-right: 80px;
   margin-left: 80px;
 }
@@ -81,14 +80,6 @@ header nav a {
 
 
 
-.arrow {
-  margin-left: 800px;
-  top: 600px;
-   .img {
-     height: 100%;
-     width: 100%;
-   }
-}
 
 .intro p {
   margin-top: 80px;
@@ -106,6 +97,11 @@ header nav a {
 .coriolis {
   font-family: "Coriolis";
   font-size: 37px;
+}
+
+.arrow {
+  margin-left: 704px;
+  margin-top: 160px;
 }
 
 footer {
