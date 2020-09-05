@@ -19,6 +19,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 }
 
+$header-font: "Moderat-extended";
 
 body {
   font-family: "Moderat-Extended";
@@ -48,7 +49,7 @@ header nav a {
         position: absolute;
         bottom: 1px;
         left: 0; right: 0;
-        height: 1px;
+        height: .5px;
         background-color: black;
     }
     &:before {
@@ -103,12 +104,50 @@ header nav a {
 .arrow img {
   margin-left: 704px;
   margin-top: 64px;
-  height: 2%;
-  width: 2%;
+  height: 2.5%;
+  width: 2.5%;
 }
 
+.study1-container {
+
+  margin-top: 282px;
+  margin-left: 178px;
+
+.study-1-text {
+  float: right;
+}
+
+  img {
+    height: 400px;
+  }
+
+  h1 {
+    font-family: $header-font;
+    font-size: 64px;
+    margin-bottom: 4px;
+  }
+
+  p {
+    width: 400px;
+  }
+
+  p .read {
+    position: relative;
+    align-items: center;
+  }
+
+  .arrow1 {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 16px;
+    height: 2%;
+    width: 2%;
+  }
+
+}
+
+
 footer {
-  position: absolute;
   bottom: 0px;
   width: 100vw;
   margin-right: 80px;
