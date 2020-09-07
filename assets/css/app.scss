@@ -44,13 +44,6 @@ body {
   }
 }
 
-.info {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 64px;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -102,6 +95,19 @@ header nav a {
   }
 
 
+
+  .self img {
+    height: 24%;
+    width: 24%;
+    margin-left: 375px;
+  }
+
+  .info {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
 
 
 
