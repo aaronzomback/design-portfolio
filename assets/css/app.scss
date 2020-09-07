@@ -29,21 +29,6 @@ body {
   position: relative;
 }
 
-.aaron {
-  margin-top: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Coriolis";
-
-  h3 {
-    font-size: 32px;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-}
-
 header {
   display: flex;
   align-items: center;
@@ -93,6 +78,21 @@ header nav a {
         }
     }
   }
+
+.aaron {
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Coriolis";
+
+  h3 {
+    font-size: 32px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
 
 
 
