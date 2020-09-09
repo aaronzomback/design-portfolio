@@ -91,29 +91,24 @@ body {
   position: relative;
 }
 
-
-.aaron {
-  margin-top: 64px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Coriolis";
-
-  h3 {
-    font-size: 32px;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
+.study1-container p, h1 {
+  text-decoration: none;
+  color: black;
 }
 
 
 
-  .self img {
-    height: 24%;
-    width: 24%;
-    margin-left: 375px;
+
+
+  section.self  {
+
+    margin-bottom: 40px;
+
+    img {
+      width: 21%;
   }
+}
+
 
   .info {
     width: 600px;
