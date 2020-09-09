@@ -55,7 +55,7 @@ header nav a {
     }
     &:before {
         opacity: 0;
-        transform: translateY(- $distance);
+        transform: translateY(-$distance);
         transition: transform 0s $easeOutBack, opacity 0s;
     }
     &:after {
