@@ -54,14 +54,16 @@ header nav a {
         background-color: black;
     }
     &:before {
+      transform: translateY(-$distance);
+      transition: transform 0s $easeOutBack, opacity 0s;
         opacity: 0;
-        transform: translateY(-$distance);
-        transition: transform 0s $easeOutBack, opacity 0s;
+
     }
     &:after {
+      transform: translateY($distance/2);
+      transition: transform $duration $easeOutBack, opacity $duration;
         opacity: 0;
-        transform: translateY($distance/2);
-        transition: transform $duration $easeOutBack, opacity $duration;
+
     }
     &:hover,
     &:focus {
