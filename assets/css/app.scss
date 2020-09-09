@@ -16,7 +16,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
   font-family: "Coriolis";
   font-weight: 400;
   src: url(/assets/fonts/Coriolis_trial-Regular.otf);
-
 }
 
 $header-font: "Moderat-extended";
@@ -41,7 +40,6 @@ header nav a {
   text-decoration: none;
   color: black;
   position: relative;
-  text-decoration: none;
   padding-bottom: 8px;
 
    &:before,
