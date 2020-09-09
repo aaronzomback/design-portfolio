@@ -240,45 +240,88 @@ section.before-we-begin {
 
   p {
     font-size: 12px;
-    width: 300px;
+    width: 360px;
   }
 
   div.before-we-begin-text {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+
+    p {
+      line-height: 1.5;
+    }
   }
 
 }
 
 section.prologue {
   div.prologue-text{
-    width: 510px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+
+section.research {
+  div.research-text{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+
+section.problem {
+  div.problem-text{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+
+section.vision {
+  div.vision-text{
+    width: 550px;
+    float: left;
+
+    p {
+      line-height: 1.5;
+    }
   }
 
+  div.process-vision {
+    margin-top: 48px;
+    float: right;
+    width: 400px;
+    font-size: 14px;
+  }
 }
 
 
 footer {
-position: relative;
+display: flex;
 bottom: 24px;
 width: 100%;
 height: 50px;
 margin-top: 40px;
+justify-content: space-between;
 
   .achieve {
     margin-bottom: 4px;
   }
 
-.collab {
-    float: left;
-  }
-
-nav {
-  float: right;
-}
 
   nav a {
     display: block;
