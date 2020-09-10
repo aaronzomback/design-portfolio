@@ -313,10 +313,15 @@ section.research {
   font-size: 12px;
 }
 
+
+.research img {
+  width: 100vw;
+}
 .research-img img {
 
     width: 100vw;
     margin-bottom: 0px;
+    width: 100%
 }
 
 section.problem {
@@ -358,6 +363,10 @@ section.user-onboarding {
   width: 550px;
 }
 
+.onboarding-img img{
+  width: 100%;
+  height: 400px;
+}
 
 footer {
 display: flex;
