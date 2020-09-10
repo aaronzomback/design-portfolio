@@ -91,14 +91,6 @@ body {
   position: relative;
 }
 
-.study1-container p, h1 {
-  text-decoration: none;
-  color: black;
-}
-
-
-
-
 
   section.self  {
 
@@ -139,33 +131,49 @@ body {
 
 
 .arrow img {
+  display: block;
   margin-left: 704px;
-  margin-top: 64px;
+  margin-top: 24px;
   height: 2.5%;
   width: 2.5%;
 }
 
-.study1-container {
+section.study1 {
+  width: 100%;
 
-  margin-top: 282px;
-  margin-left: 178px;
-
-.study-1-text {
-  float: right;
 }
 
-  img {
-    height: 400px;
-  }
+.study1-container {
+
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 282px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+  .study1-item {
+    width: auto;
+    height: auto;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
 
   h1 {
     font-family: $header-font;
     font-size: 64px;
     margin-bottom: 4px;
+    text-decoration: none;
   }
 
   p {
     width: 400px;
+    text-decoration: none;
   }
 
   p .read {
@@ -182,10 +190,16 @@ body {
   }
 }
 
+
 .timesink_cover {
+  width: 100%;
+  margin-right: 80px;
   margin-top: 88px;
   margin-bottom: 62px;
   vertical-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 1;
 
 
 
@@ -203,6 +217,7 @@ body {
     width: 400px;
   }
 }
+
 
 .timesink_cover_border {
   border-bottom: 1px solid black;
