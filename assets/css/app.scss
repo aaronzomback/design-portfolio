@@ -302,7 +302,7 @@ section.before-we-begin {
     width: 100%;
 
     h4 {
-      margin-bottom: 2px;
+      margin-bottom: 8px;
     }
 
 
@@ -327,7 +327,7 @@ section.prologue {
   margin-bottom: 80px;
 
   h2 {
-    margin-bottom: 2px;
+    margin-bottom: 8px;
   }
 
   div.prologue-text{
@@ -366,6 +366,10 @@ section.research {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+
+    h2 {
+      margin-bottom: 8px;
+    }
 
     p {
       line-height: 1.5;
@@ -413,6 +417,10 @@ section.problem {
     margin-left: auto;
     margin-right: auto;
 
+    h2 {
+      margin-bottom: 8px;
+    }
+
     p {
       line-height: 1.5;
     }
@@ -428,6 +436,10 @@ section.vision {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+
+    h2 {
+      margin-bottom: 8px;
+    }
 
     p {
       line-height: 1.5;
@@ -454,6 +466,7 @@ section.design-for {
 
 h2 {
   line-height: 1;
+  margin-bottom: 8px;
 }
 
     p {
