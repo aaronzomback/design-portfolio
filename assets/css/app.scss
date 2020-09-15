@@ -4,7 +4,27 @@
 @font-face {
   font-family: "Moderat-Extended";
   font-weight: 400;
-  src: url(/assets/fonts/Moderat-Trial-Extended-Regular.otf);
+  src: url(/assets/fonts/Moderat-Extended-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Moderat-Extended-Medium";
+  src: url(/assets/fonts/Moderat-Extended-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Moderat-Extended-Light";
+  src: url(/assets/fonts/Moderat-Extended-Light.woff);
+}
+
+@font-face {
+  font-family: "Condensed";
+  src: url(/assets/fonts/Moderat-Condensed-Light.woff2);
+}
+
+@font-face {
+  font-family: "Mono";
+  src: url(/assets/fonts/Moderat-Mono-Regular.ttf);
 }
 
 @font-face {
@@ -13,13 +33,25 @@
   src: url(/assets/fonts/Coriolis_trial-Regular.otf);
 }
 
-$header-font: "Moderat-extended";
+
+
+$body-font: "Moderat-Extended";
+$title-font: "Moderat-Extended-Medium";
+$body-font-light: "Moderat-Extended-Light";
+$condensed: "Condensed";
+$mono: "Mono";
 $duration: .2s;
 $distance: 8px;
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 
+h1 {
+  font-size: 40px;
+}
 
+h2 {
+  font-size: 32px;
+}
 
 header {
   display: flex;
@@ -52,7 +84,7 @@ header nav a {
         position: absolute;
         bottom: 2px;
         left: 0; right: 0;
-        height: 1px;
+        height: 0.8px;
         background-color: black;
     }
     &:before {
@@ -84,7 +116,7 @@ header nav a {
 
 
 body {
-  font-family: $header-font;
+  font-family: $body-font-light;
   background-color: white;
   margin-right: 80px;
   margin-left: 80px;
@@ -165,7 +197,7 @@ section.study1 {
 
 
   h1 {
-    font-family: $header-font;
+    font-family: $body-font;
     font-size: 64px;
     margin-bottom: 4px;
     text-decoration: none;
@@ -211,6 +243,7 @@ section.study1 {
   h1 {
     font-size: 64px;
     margin-bottom: 8px;
+    font-family: $body-font;
   }
 
   p {
@@ -230,6 +263,10 @@ section.study1 {
   .column {
     flex: 20%;
     margin-right: 32px;
+  }
+
+  p {
+    font-family: $condensed;
   }
 
   div.platform p {
@@ -285,6 +322,26 @@ section.prologue {
       line-height: 1.5;
     }
   }
+}
+
+section.event-poster {
+
+  margin-bottom: 120px;
+
+  img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  p {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
 }
 
 section.research {
