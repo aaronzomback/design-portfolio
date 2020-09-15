@@ -272,6 +272,10 @@ section.study1 {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 
+  h4 {
+    margin-bottom: 8px;
+  }
+
   .row {
     display: flex;
   }
@@ -421,6 +425,10 @@ section.problem {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+
+    h6 {
+      margin-top: 8px;
+    }
 
     h2 {
       margin-bottom: 32px;
