@@ -301,8 +301,8 @@ section.before-we-begin {
 
     width: 100%;
 
-    h4 {
-      margin-bottom: 32px;
+    h5 {
+      margin-bottom: 16px;
     }
 
 
@@ -418,7 +418,12 @@ section.problem {
     margin-right: auto;
 
     h2 {
-      margin-bottom: 16px;
+      margin-bottom: 32px;
+    }
+
+    h5 {
+      margin-top: 4px;
+      margin-bottom: 4px;
     }
 
     p {
