@@ -65,6 +65,10 @@ h5 {
   font-size: 32px;
 }
 
+h6 {
+  font-size: 24px;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -375,10 +379,6 @@ section.research {
       line-height: 1.5;
     }
 
-    h5 {
-      margin-top: 4px;
-      margin-bottom: 4px;
-    }
   }
 
   div.process-research {
@@ -424,11 +424,6 @@ section.problem {
 
     h2 {
       margin-bottom: 32px;
-    }
-
-    h5 {
-      margin-top: 4px;
-      margin-bottom: 4px;
     }
 
     p {
@@ -477,11 +472,6 @@ section.design-for {
 h2 {
   line-height: 1;
   margin-bottom: 32px;
-}
-
-h5 {
-  margin-top: 4px;
-  margin-bottom: 4px;
 }
 
     p {
