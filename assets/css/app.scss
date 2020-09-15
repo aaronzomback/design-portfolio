@@ -413,8 +413,22 @@ section.mobile-app {
   }
 }
 
+section.features {
+  margin-top: 64px;
+  margin-left: 80px;
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
 section.user-onboarding {
   width: 550px;
+
+}
+
+.user-onboarding-text {
+  margin-top: 64px;
 }
 
 .onboarding-img img{
