@@ -301,9 +301,6 @@ section.before-we-begin {
 
     width: 100%;
 
-  h3 {
-    margin-bottom: 8px;
-  }
 
   p {
     font-size: 12px;
@@ -446,9 +443,10 @@ section.design-for {
     margin-right: auto;
     margin-top: 120px;
 
-    h4 {
-      margin-bottom: 1em;
-    }
+
+h2 {
+  line-height: 1;
+}
 
     p {
       line-height: 1.5;
@@ -480,7 +478,7 @@ section.design-for-img {
 
 section.mobile-app {
   margin-top: 64px;
-  width: 550px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
 
