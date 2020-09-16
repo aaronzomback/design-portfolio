@@ -147,6 +147,10 @@ body {
   font-family: $body-font-light;
 }
 
+.process-problem {
+    font-family: $body-font-light;
+}
+
 
   section.self  {
 
@@ -451,6 +455,15 @@ section.problem {
     p {
       line-height: 1.5;
     }
+  }
+
+  div.process-problem {
+    margin-top: 48px;
+    width: 400px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
   }
 }
 
