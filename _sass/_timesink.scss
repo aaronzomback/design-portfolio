@@ -1,5 +1,49 @@
 
 
+.timesink_cover_border {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 8px 0;
+
+  h6 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 20%;
+    margin-right: 32px;
+  }
+
+  p {
+    font-family: $body-font-light;
+  }
+
+  div.platform p {
+    line-height: 0.5;
+  }
+
+  div.roles {
+    line-height: 0.5;
+  }
+
+  div.tools {
+    line-height: 0.5;
+  }
+}
+
+
+
+
+
+
+
+
+
 section.before-we-begin {
 
     margin-top: 80px;
@@ -20,6 +64,11 @@ section.before-we-begin {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 120px;
+    margin-top: 64px;
+    border-bottom: 1px solid black;
+    padding-bottom: 16px;
+
 
     p {
       line-height: 1.5;
@@ -32,8 +81,8 @@ section.prologue {
 
   margin-bottom: 80px;
 
-  h2 {
-    margin-bottom: 32px;
+  h5 {
+    margin-bottom: 24px;
   }
 
   div.prologue-text{
@@ -78,8 +127,8 @@ section.research {
       margin-bottom: 24px;
     }
 
-    h2 {
-      margin-bottom: 32px;
+    h5 {
+      margin-bottom: 24px;
     }
 
     p {
@@ -133,8 +182,8 @@ section.problem {
       margin-top: 8px;
     }
 
-    h2 {
-      margin-bottom: 32px;
+    h5 {
+      margin-bottom: 24px;
     }
 
     p {
@@ -166,8 +215,8 @@ section.vision {
     margin-left: auto;
     margin-right: auto;
 
-    h2 {
-      margin-bottom: 32px;
+    h5 {
+      margin-bottom: 24px;
     }
 
     p {
@@ -198,9 +247,9 @@ section.design-for {
     }
 
 
-h2 {
+h5 {
   line-height: 1;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
     p {
@@ -238,10 +287,15 @@ section.design-for-img {
 }
 
 section.mobile-app {
-  margin-top: 64px;
+  margin-top: 120px;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+
+
+  h5 {
+    margin-bottom: 24px;
+  }
 
   p {
     line-height: 1.5;
@@ -252,6 +306,12 @@ section.mobile-app {
       line-height: 1.5;
     }
   }
+}
+
+.site-map img {
+  width: 100%;
+  display: block;
+  margin-top: 40px;
 }
 
 section.features {
@@ -275,4 +335,17 @@ section.user-onboarding {
 .onboarding-img img{
   width: 100%;
   height: 400px;
+}
+
+
+div.scorsese-quote {
+  width: 600px;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+    p{
+      font-size: 40px;
+    }
 }
