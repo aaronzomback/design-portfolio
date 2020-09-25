@@ -258,69 +258,6 @@ section.study1 {
 }
 
 
-.timesink_cover {
-  width: 100%;
-  margin-right: 80px;
-  margin-top: 88px;
-  margin-bottom: 62px;
-  vertical-align: center;
-  display: flex;
-  flex-flow: row nowrap;
-  flex-shrink: 1;
-
-
-
-  div.timesink_cover_description {
-    margin-left: 180px;
-    float: left;
-  }
-
-  h1 {
-    font-size: 64px;
-    margin-bottom: 8px;
-    font-family: $body-font;
-  }
-
-  p {
-    width: 400px;
-  }
-}
-
-
-.timesink_cover_border {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-
-  h6 {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-
-  .row {
-    display: flex;
-  }
-
-  .column {
-    flex: 20%;
-    margin-right: 32px;
-  }
-
-  p {
-    font-family: $body-font-light;
-  }
-
-  div.platform p {
-    line-height: 0.5;
-  }
-
-  div.roles {
-    line-height: 0.5;
-  }
-
-  div.tools {
-    line-height: 0.5;
-  }
-}
 
 footer {
 display: flex;

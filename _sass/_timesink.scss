@@ -1,12 +1,45 @@
 
 
+.timesink_cover {
+  width: 100%;
+  margin-right: 80px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  vertical-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 1;
+  background-color: black;
+  color: white;
+
+
+
+  div.timesink_cover_description {
+    margin-left: 180px;
+    float: left;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin-bottom: 8px;
+    font-family: $body-font;
+  }
+
+  p {
+    width: 400px;
+  }
+}
+
+
+
+
+
 .timesink_cover_border {
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
   padding: 8px 0;
 
   h6 {
-    margin-top: 16px;
+    margin-top: 0px;
     margin-bottom: 16px;
   }
 
@@ -50,6 +83,7 @@ section.before-we-begin {
     margin-bottom: 64px;
 
     width: 100%;
+    float: left;
 
     h5 {
       margin-bottom: 16px;
@@ -57,17 +91,17 @@ section.before-we-begin {
 
 
   p {
-    font-size: 14px;
+    font-size: 18px;
+    width: 600px;
   }
 
   div.before-we-begin-text {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 800px;
     margin-bottom: 120px;
     margin-top: 64px;
     border-bottom: 1px solid black;
     padding-bottom: 16px;
+    float: left;
 
 
     p {
@@ -79,42 +113,60 @@ section.before-we-begin {
 
 section.prologue {
 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-bottom: 80px;
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 160px;
 
   h5 {
     margin-bottom: 24px;
+    margin-right: 64px;
+    font-size: 40px;
+    margin-top: 0;
   }
 
-  div.prologue-text{
-    width: 550px;
+    .prologue-paragraph {
+      line-height: 1.67;
+      font-size: 18px;
+      margin-right: 200px;
+      width: 600px;
+
+      p {
+          margin-top: 0;
+      }
+
+    }
+  }
+
+  section.old-cinemas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    div.loews {
+      p {
+        width: 60em;
+        font-size: 8px;
+      }
+    }
+
+
+  }
+
+  .current-platforms {
+
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 
-    p {
-      line-height: 1.5;
+    h5 {
+      font-size: 40px;
     }
   }
-}
 
-section.event-poster {
 
-  margin-bottom: 120px;
 
-  img {
-    display: block;
-    width: 35%;
-    margin: 0 auto;
-  }
-
-  p {
-    display: inline-block;
-    width: 100%;
-    margin-top: 0;
-    font-size: 12px;
-    text-align: center;
-  }
-
-}
 
 section.research {
   div.research-text{
@@ -129,10 +181,12 @@ section.research {
 
     h5 {
       margin-bottom: 24px;
+      font-size: 40px;
     }
 
     p {
       line-height: 1.5;
+      font-size: 18px;
     }
 
   }
@@ -147,6 +201,16 @@ section.research {
   }
 }
 
+.quote1 {
+  font-size: 24px;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: left;
+}
+
 .research-caption {
   margin-top: 0px;
   font-size: 12px;
@@ -154,14 +218,21 @@ section.research {
 
 
 .research img {
-  width: 100vw;
+
 }
+
 .research-img img {
 
-    width: 100vw;
+    display: block;
     margin-bottom: 0px;
-    width: 100%
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+
 
 div.problem-quote {
 
@@ -188,10 +259,11 @@ section.problem {
 
     p {
       line-height: 1.5;
+      font-size: 18px;
     }
 
     p .consensus-emerge {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
@@ -221,6 +293,7 @@ section.vision {
 
     p {
       line-height: 1.5;
+      font-size: 18px;
     }
   }
 
@@ -255,6 +328,7 @@ h5 {
     p {
       line-height: 1.5;
       margin-bottom: 1em;
+      font-size: 18px;
     }
   }
 
@@ -299,6 +373,7 @@ section.mobile-app {
 
   p {
     line-height: 1.5;
+    font-size: 18px;
   }
 
   .model-list {
