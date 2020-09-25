@@ -79,7 +79,7 @@
 
 section.before-we-begin {
 
-    margin-top: 80px;
+    margin-top: 24px;
     margin-bottom: 64px;
 
     width: 100%;
@@ -99,9 +99,9 @@ section.before-we-begin {
     width: 800px;
     margin-bottom: 120px;
     margin-top: 64px;
-    border-bottom: 1px solid black;
     padding-bottom: 16px;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
 
 
     p {
@@ -143,10 +143,19 @@ section.prologue {
   section.old-cinemas {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: 0 auto;
 
     div.loews {
+
+      img {
+        display: block;
+        width: 75%;
+      }
+
       p {
-        width: 60em;
+        margin-top: 0;
+        width: 40em;
         font-size: 8px;
       }
     }
