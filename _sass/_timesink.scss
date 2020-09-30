@@ -183,25 +183,30 @@ section.prologue {
 
 
 section.research {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 134px;
+
+  h5 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    margin-top: 0;
+  }
+
   div.research-text{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
+    margin-top: 0;
 
-    h6 {
-      margin-top: 24px;
-      margin-bottom: 24px;
-    }
 
-    h5 {
-      margin-bottom: 24px;
-      font-size: 40px;
-    }
 
     p {
       line-height: 1.67;
       font-size: 20px;
+      margin-top: 0;
     }
 
   }
@@ -263,7 +268,7 @@ div.problem-quote {
 }
 
 section.problem {
-  margin-top: 64px;
+  margin-top: 120px;
 
   div.problem-text{
     width: 600px;
@@ -302,6 +307,14 @@ section.vision {
 
 
   margin-top: 120px;
+
+  img {
+    display: block;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   div.vision-text{
     width: 600px;
@@ -393,8 +406,8 @@ section.mobile-app {
   }
 
   p {
-    line-height: 1.5;
-    font-size: 18px;
+    line-height: 1.67;
+    font-size: 20px;
   }
 
   .model-list {
@@ -442,6 +455,6 @@ div.scorsese-quote {
   text-align: center;
 
     p{
-      font-size: 40px;
+      font-size: 56px;
     }
 }

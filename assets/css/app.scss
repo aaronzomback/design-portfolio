@@ -41,6 +41,7 @@
 
 
 $body-font: "Nanum";
+$front-font: "Moderat-Extended";
 $title-font: "Moderat-Extended-Medium";
 $body-font-light: "Moderat-Extended-Light";
 $condensed: "Condensed";
@@ -107,6 +108,7 @@ header nav a {
   color: black;
   position: relative;
   padding-bottom: 8px;
+  font-family: $front-font;
 
 
    &:before,
@@ -170,6 +172,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+    font-family: $front-font;
 }
 
   section.self  {
@@ -188,6 +191,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 64px;
+
   }
 
 
@@ -199,6 +203,7 @@ body {
   font-size: 48px;
   width: 700px;
   line-height: 0.95;
+    font-family:$front-font;
 }
 
 .is {
@@ -280,6 +285,7 @@ width: 100%;
 height: 50px;
 margin-top: 40px;
 justify-content: space-between;
+font-family: $front-font;
 
   .achieve {
     margin-bottom: 4px;
