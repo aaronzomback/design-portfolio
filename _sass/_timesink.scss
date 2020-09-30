@@ -53,7 +53,7 @@
   }
 
   p {
-    font-family: $body-font-light;
+    font-family: $body-font;
   }
 
   div.platform p {
@@ -129,7 +129,7 @@ section.prologue {
 
     .prologue-paragraph {
       line-height: 1.67;
-      font-size: 18px;
+      font-size: 20px;
       margin-right: 200px;
       width: 600px;
 
@@ -165,9 +165,14 @@ section.prologue {
 
   .current-platforms {
 
-    width: 500px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
+
+    p {
+      line-height: 1.67;
+      font-size: 20px;
+    }
 
     h5 {
       font-size: 40px;
@@ -179,9 +184,10 @@ section.prologue {
 
 section.research {
   div.research-text{
-    width: 550px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 
     h6 {
       margin-top: 24px;
@@ -194,8 +200,8 @@ section.research {
     }
 
     p {
-      line-height: 1.5;
-      font-size: 18px;
+      line-height: 1.67;
+      font-size: 20px;
     }
 
   }
@@ -221,8 +227,13 @@ section.research {
 }
 
 .research-caption {
-  margin-top: 0px;
+  margin-top: 2px;
   font-size: 12px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 
@@ -237,8 +248,8 @@ section.research {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 56px;
+    margin-bottom: 0px;
 }
 
 
@@ -252,9 +263,10 @@ div.problem-quote {
 }
 
 section.problem {
-  margin-top: 120px;
+  margin-top: 64px;
+
   div.problem-text{
-    width: 550px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -267,12 +279,12 @@ section.problem {
     }
 
     p {
-      line-height: 1.5;
-      font-size: 18px;
+      line-height: 1.67;
+      font-size: 20px;
     }
 
     p .consensus-emerge {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 

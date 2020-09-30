@@ -33,9 +33,14 @@
   src: url(/assets/fonts/Coriolis_trial-Regular.otf);
 }
 
+@font-face {
+  font-family: "Nanum";
+  src: url(/assets/fonts/NanumMyeongjo-Regular.ttf);
+}
 
 
-$body-font: "Moderat-Extended";
+
+$body-font: "Nanum";
 $title-font: "Moderat-Extended-Medium";
 $body-font-light: "Moderat-Extended-Light";
 $condensed: "Condensed";
@@ -202,7 +207,7 @@ body {
 
 .coriolis {
   font-family: "Coriolis";
-  font-size: 37px;
+  font-size: 32px;
 }
 
 
