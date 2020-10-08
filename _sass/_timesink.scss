@@ -1,4 +1,7 @@
-
+div.anthology {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
 
 .timesink_cover {
   width: 100%;
@@ -42,6 +45,9 @@ div.timesink_cover_mockup img {
 .timesink_cover_border {
   border-bottom: 1px solid black;
   padding: 8px 0;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 
   h6 {
     margin-top: 0px;
@@ -169,7 +175,12 @@ section.prologue {
     margin: 0 auto;
 
     div.loews {
-
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+          img {
+            width: 50%
+          }
 
     }
 
