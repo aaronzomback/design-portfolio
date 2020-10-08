@@ -244,7 +244,7 @@ section.study1 {
 
 
   h1 {
-    font-family: $body-font;
+    font-family: $front-font;
     font-size: 64px;
     margin-bottom: 4px;
     text-decoration: none;
@@ -253,19 +253,12 @@ section.study1 {
   p {
     width: 400px;
     text-decoration: none;
+    font-size: 24px;
   }
 
   p .read {
     position: relative;
     align-items: center;
-  }
-
-  .arrow1 {
-    position: absolute;
-    margin-top: 4px;
-    margin-left: 16px;
-    height: 2%;
-    width: 2%;
   }
 }
 
