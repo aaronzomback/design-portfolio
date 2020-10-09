@@ -1,6 +1,39 @@
 div.eraserhead img {
-  width: 25%;
+  width: 75%;
 }
+
+div.eraserhead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 120px;
+  grid-column: 0px;
+  margin-bottom: 120px;
+
+  p {
+    font-size: 18px;
+  }
+
+  .lynch {
+    font-size: 32px;
+  }
+}
+
+div.anthology {
+
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+
+}
+
 
 .streaming img {
   display: block;
