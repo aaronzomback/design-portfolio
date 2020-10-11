@@ -1,3 +1,58 @@
+
+div.background-quote1 {
+  background-image: url('/assets/img/Frame93.svg');
+  height: 400px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  margin-left: -80px;
+  padding-right: 200px;
+  margin-bottom: 80px;
+}
+
+div.background-quote2 {
+  background-image: url('/assets/img/Frame91.svg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin-left: -80px;
+  padding-right: 200px;
+  width: 100%;
+    margin-bottom: 80px;
+}
+
+div.background-quote3 {
+  background-image: url('/assets/img/Frame90.svg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin-left: -80px;
+  padding-right: 200px;
+  width: 100%;
+    margin-bottom: 80px;
+}
+
+div.background-quote4 {
+  background-image: url('/assets/img/Frame94.svg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  margin-left: -80px;
+  padding-right: 200px;
+  width: 100%;
+}
+
+div.youtube {
+  p.source {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  p.caption {
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+
 .conclusion {
   margin-bottom: 200px;
   width: 1000px;
