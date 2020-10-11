@@ -1,6 +1,51 @@
+.conclusion {
+  margin-bottom: 200px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+    p {
+      font-size: 48px;
+      font-family: $front-font
+  }
+}
+
 div.eraserhead img {
   width: 75%;
 }
+
+section.conversations {
+
+  margin-top: 180px;
+
+  h2 {
+    font-family: $front-font;
+    width: 800px;
+  }
+
+  div.quote1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+  }
+
+div.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+  div.quote4 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+  }
+}
+
 
 div.eraserhead {
   display: grid;
@@ -9,9 +54,10 @@ div.eraserhead {
   margin-right: 120px;
   grid-column: 0px;
   margin-bottom: 120px;
+  align-items: center;
 
   p {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .lynch {
@@ -51,36 +97,23 @@ h2.filmmaker-conversations {
   margin-bottom: 32px;
 }
 
-div.researching-conversations h2 {
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 88px;
-  font-family: $front-font;
-}
-
-
-
-div.logos {
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 0;
-  column-gap: 0;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 96px;
-
-  img {
-    width: 50%;
-    text-align: center;
-    display: inline-grid;
-
+div.researching-conversations {
+    margin-bottom: 0px;
+  h2 {
+    width: 700px;
+    margin-bottom: 0px;
+    font-family: $front-font;
   }
+    p {
+      font-size: 24px;
+      width: 600px;
+    }
 
-  align-items: center;
-  vertical-align: middle;
 }
+
+
+
+
 
 
 .timesink_cover {
@@ -205,7 +238,7 @@ section.before-we-begin {
 }
 
 div.West {
-  margin-top: 0;
+  margin-top: 120px;
   margin-left: 40px;
   h1 {
     font-family: $front-font;
@@ -276,7 +309,7 @@ section.research {
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 134px;
+  margin-top: 24px;
 
   h3 {
     margin-bottom: 24px;
@@ -554,8 +587,14 @@ section.features {
 }
 
 div.features-image {
+  width: 1000px;
   margin-left:auto;
   margin-right: auto;
+
+  p {
+    font-size: 18px;
+    margin-top: 2px;
+  }
 }
 
 div.scorsese-quote {
