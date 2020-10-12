@@ -4,6 +4,10 @@ section.submissions {
   h1 {
     font-family: $front-font
   }
+
+  ul {
+    font-size: 27px;
+  }
 }
 
 div.background-quote1 {
@@ -56,7 +60,8 @@ div.youtube {
 }
 
 .conclusion {
-  margin-bottom: 200px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -127,7 +132,6 @@ div.eraserhead {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
-  margin-bottom: 160px;
   margin-right: auto;
   margin-left: auto;
   align-items: center;
@@ -152,6 +156,7 @@ h2 {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 120px;
   p {
     font-size: 27px;
     width: 800px;
@@ -703,9 +708,9 @@ div.features-image {
   margin-left:auto;
   margin-right: auto;
 
-  p {
-    font-size: 18px;
-    margin-top: 2px;
+  p.caption {
+    font-size: 27px;
+    margin-top: 16px;
   }
 }
 
@@ -719,4 +724,86 @@ div.scorsese-quote {
     p{
       font-size: 56px;
     }
+}
+
+div.wireframes {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column-gap: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  p {
+    font-size: 27px;
+    width: 360px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+div.final-status {
+  width: 800px;
+  h2 {
+    font-family: $front-font;
+  }
+  p {
+    font-size: 27px;
+  }
+
+  ol {
+    font-size: 24px;
+  }
+}
+
+div.final-history {
+  h2 {
+    font-family: $front-font;
+  }
+  p {
+    font-size: 27px;
+  }
+  ul {
+    font-size: 24px;
+  }
+}
+
+div.final-submissionform {
+  h2 {
+    font-family: $front-font;
+  }
+
+  p{
+    font-size: 27px;
+    width: 800px;
+    line-height: 1.67;
+  }
+}
+
+div.scaling-up {
+  h1 {
+    font-family: $front-font;
+  }
+  p {
+    width: 660px;
+    font-size: 27px;
+    line-height: 1.67;
+  }
+}
+
+div.forward {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  h1 {
+    font-family: $front-font;
+    text-align: center;
+  }
+  p {
+    font-size: 27px;
+    line-height: 1.67;
+    width: 800px;
+  }
 }
