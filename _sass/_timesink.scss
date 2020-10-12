@@ -8,6 +8,7 @@ div.background-quote1 {
   margin-left: -80px;
   padding-right: 200px;
   margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 div.background-quote2 {
@@ -58,14 +59,22 @@ div.youtube {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-    p {
-      font-size: 48px;
+    h3 {
       font-family: $front-font
   }
 }
 
+.arthouse {
+  h3 {
+    font-family: $front-font
+  }
+}
+
+
 div.eraserhead img {
   width: 75%;
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+  display: block;
 }
 
 section.conversations {
@@ -103,13 +112,18 @@ div.grid {
 
 
 div.eraserhead {
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 200px;
-  margin-right: 120px;
-  grid-column: 0px;
+  grid-column-gap: 10px;
   margin-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
+background: radial-gradient(161.79% 280.7% at 51.25% 85.53%, #4A7CE3 10.58%, #375492 33.92%, #222222 55.65%);
+  color: white;
+  padding: 120px 120px;
+  overflow: hidden;
 
   p {
     font-size: 21px;
@@ -152,16 +166,32 @@ h2.filmmaker-conversations {
   margin-bottom: 32px;
 }
 
+section.research {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  ul {
+    width: 500px;
+    line-height: 1.4;
+  }
+}
+
 div.researching-conversations {
     margin-bottom: 0px;
-  h2 {
-    width: 700px;
-    margin-bottom: 0px;
+  h1 {
+    width: 800px;
+    margin-top: 180px;
+    margin-bottom: 32px;
     font-family: $front-font;
   }
     p {
       font-size: 24px;
       width: 600px;
+    }
+
+    img {
+      display: block;
+      margin-top: 80px;
     }
 
 }
@@ -394,10 +424,11 @@ section.research {
   div.research-photo {
     margin-right: 80px;
 
-    p.source {
-      margin-top: 0;
-      font-size: 12px;
-      float: right;
+    p {
+      margin-top: 16px;
+      font-size: 20px;
+      line-height: 1.4;
+
     }
     img {
       display: block;
