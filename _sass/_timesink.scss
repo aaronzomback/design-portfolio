@@ -750,42 +750,60 @@ div.final-status {
     font-family: $front-font;
   }
   p {
-    font-size: 27px;
+    font-size: 24px;
   }
 
   ol {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
 
 div.final-history {
+  margin-top: 80px;
   h2 {
     font-family: $front-font;
   }
   p {
-    font-size: 27px;
+    font-size: 24px;
   }
   ul {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
 
 div.final-submissionform {
+  margin-top: 80px;
   h2 {
     font-family: $front-font;
   }
 
   p{
-    font-size: 27px;
+    font-size: 24px;
     width: 800px;
     line-height: 1.67;
   }
 }
 
-div.scaling-up {
-  h1 {
+
+h1.scaling {
     font-family: $front-font;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+div.scaling-up {
+
+margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 80px;
+  align-items: center;
+
+  img {
+    width: 65%;
+    display: block;
+    margin-top: 0;
   }
+
   p {
     width: 660px;
     font-size: 27px;
@@ -800,8 +818,10 @@ div.forward {
   h1 {
     font-family: $front-font;
     text-align: center;
+    margin-bottom: 24px;
   }
   p {
+    margin-top: 0;
     font-size: 27px;
     line-height: 1.67;
     width: 800px;
