@@ -8,7 +8,7 @@ section.self  {
 
 
 .info {
-  width: 600px;
+  width: 800px;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -16,7 +16,7 @@ section.self  {
 
   p{
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 24px;
   }
 
 }
@@ -29,12 +29,12 @@ button.CV {
   background-color: white;
   padding: 12px 24px;
   transition: 0.2s ease-in;
+  font-family: $front-font;
+  cursor: pointer;
 
   &:hover {
     background-color: black;
-    a{
-      color: white;
-    }
+    color: white;
   }
 
   a {
