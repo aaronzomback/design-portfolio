@@ -330,6 +330,12 @@ background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), l
      border-radius: 50px;
      padding: 16px 8px;
      width: 180px;
+     cursor: pointer;
+     transition: ease-in 0.2s;
+
+     &:hover {
+       background-color: rgba(#0033ff, 0.85);
+     }
      span.read {
        color: white;
        font-family: $front-font;
