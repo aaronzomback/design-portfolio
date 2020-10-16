@@ -745,6 +745,8 @@ div.wireframes {
 }
 
 div.final-status {
+  margin-left: auto;
+  margin-right: auto;
   width: 800px;
   h2 {
     font-family: $front-font;
@@ -759,6 +761,9 @@ div.final-status {
 }
 
 div.final-history {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
   margin-top: 80px;
   h2 {
     font-family: $front-font;
@@ -772,6 +777,9 @@ div.final-history {
 }
 
 div.final-submissionform {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
   margin-top: 80px;
   h2 {
     font-family: $front-font;
@@ -783,6 +791,8 @@ div.final-submissionform {
     line-height: 1.67;
   }
 }
+
+
 
 
 h1.scaling {

@@ -46,6 +46,7 @@
 
 
 
+
 $body-font: "Bellefair";
 $front-font: "Moderat-Extended";
 $title-font: "Moderat-Extended-Medium";
@@ -324,9 +325,9 @@ background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), l
    margin-top: 0px;
 
    button.oku-link {
-     border: 1px solid #0033FF;
+     border: 1px solid #6685FF;
      margin-top: 16px;
-     background-color: #0033FF;
+     background-color: #6685FF;
      border-radius: 50px;
      padding: 16px 8px;
      width: 180px;
@@ -350,13 +351,13 @@ background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), l
 
      h1 {
        font-family: $front-font;
-       color: #0033FF;
+       color: #4EB3D6;
        margin-top: 0;
      }
 
      p {
        font-size: 24px;
-       color: #0033FF;
+       color: #4EB3D6;
        width: 400px;
      }
 
