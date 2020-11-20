@@ -44,10 +44,29 @@
   src: url(/assets/fonts/Bellefair-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url(/assets/fonts/Inter-Regular-sInt=0.ttf);
+}
+
+@font-face {
+  font-family: "IBMPLexSans-Regular";
+  font-weight: 400;
+  src: url(/assets/fonts/IBMPLexSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Quattrocento-Sans";
+  font-weight: 400;
+  src: url(/assets/fonts/QuattrocentoSans-Regular.ttf);
+}
 
 
 
-$body-font: "Bellefair";
+
+
+$body-font: "Quattrocento-Sans";
 $front-font: "Moderat-Extended";
 $title-font: "Moderat-Extended-Medium";
 $body-font-light: "Moderat-Extended-Light";
