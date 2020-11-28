@@ -62,11 +62,17 @@
   src: url(/assets/fonts/QuattrocentoSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Rubik-Body";
+  font-weight: 300;
+  src: url(/assets/fonts/Rubik-Light.ttf)
+}
 
 
 
 
-$body-font: "Quattrocento-Sans";
+
+$body-font: "Rubik-Body";
 $front-font: "Moderat-Extended";
 $title-font: "Moderat-Extended-Medium";
 $body-font-light: "Moderat-Extended-Light";
