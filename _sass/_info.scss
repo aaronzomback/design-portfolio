@@ -29,7 +29,7 @@ button.CV {
   background-color: white;
   padding: 12px 24px;
   transition: 0.2s ease-in;
-  font-family: $front-font;
+  font-family: $body-font;
   cursor: pointer;
 
   &:hover {
@@ -40,6 +40,6 @@ button.CV {
   a {
     text-decoration: none;
     color: black;
-    font-family: $front-font;
+    font-family: $body-font;
   }
 }
