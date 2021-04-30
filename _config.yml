@@ -1,12 +1,11 @@
 ---
 title: Aaron Zomback, software engineering & development
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-    layout: nav
-  uploads:
-    title: Uploads
-    output: true
-theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
