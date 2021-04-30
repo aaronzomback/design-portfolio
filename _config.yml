@@ -3,8 +3,9 @@ title: Aaron Zomback, software engineering & development
 timezone: UTC
 collections:
   posts:
-    layout: nav
+    title: Posts
     output: true
+    layout: nav
   uploads:
     title: Uploads
     output: true
