@@ -5,7 +5,6 @@ collections:
   posts:
     title: Articles
     output: true
-    permalink: /articles/:title/
   uploads:
     title: Uploads
     output: true
