@@ -5,7 +5,6 @@ collections:
   posts:
     layout: nav
     output: true
-    permalink: /articles/:title/
   uploads:
     title: Uploads
     output: true
