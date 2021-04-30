@@ -1,3 +1,8 @@
+---
+title: Going From C To Javascript
+date: 2020-08-26 00:00:00 Z
+---
+
 
 Comme on pouvait s’y attendre, le roi des cryptos s’y est vendu comme des petits pains. Les 11 lots proposés sont bien sûrs tous partis, pour un total de 487 000 dollars comme le rapporte The Block.
 

@@ -1,11 +1,16 @@
 ---
 title: Aaron Zomback, software engineering & development
 timezone: UTC
-
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "article"
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: article
