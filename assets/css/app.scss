@@ -68,6 +68,8 @@
   src: url(/assets/fonts/Rubik-Light.ttf)
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 
 
@@ -84,7 +86,6 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 
 @import "header";
-@import "timesink";
 @import "info";
 @import "articles";
 @import "footer";
