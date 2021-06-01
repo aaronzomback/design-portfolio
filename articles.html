@@ -1,7 +1,7 @@
 ---
 title: articles
 permalink: "/articles/"
-layout: nav
+layout: default
 ---
 
 <section class="articles-index">
@@ -9,11 +9,8 @@ layout: nav
     {% for post in site.posts %}
 <a href="{{ post.url }}">
   <div class="">
-  <h2>{{ post.title }}</h2>
-    <p class="excerpt">{{ post.excerpt }}</p>
-    <div style="display: flex; align-items: center;">
-      <span class="read-more">Read more </span> <img src="/assets/img/rightarrow3.svg" alt="right-arrow" style="display: inline-block;">
-    </div>
+  <h6>{{ post.title }}</h6>
+  <!-- <p class="excerpt">{{ post.date }}</p> -->
   </div>
 </a>
     {% endfor %}

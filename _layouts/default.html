@@ -3,32 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>My software engineering/computer-science work</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="keywords" content="software engineering, web development, software architecure, storytelling, networks, distributed, UX, UI, user experience, computer science, coder, web developer">
     <meta name="description" content="software engineering, web development, and computer science work">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/app.css">
     <link rel="icon" href="/assets/img/mind2.png" type="image/png">
   </head>
 
   <body>
-    <div id="page-container">
-      <div id="content-wrap">
 
 
  {% include header.html %}
 
-<div class="front">
-  <section class="intro">
-    <p>Aaron Zomback <br> <span class="is">software engineering and development</span></p>
-    <!-- <button type="button" name="button"><span style="letter-spacing: 1px;">PROJECTS</span><img src="/assets/img/arrowright4.svg" alt="" caption="Right Arrow by Ali Coşkun from the Noun Project" style="display: inline-block; width: 14%;"></button> -->
-    <p style="font-size: 14px; margin-top: 32px;">aaronzomback@protonmail.com // <a href="https://github.com/aaronzomback" add target="_blank">GITHUB</a> // <a href="https://www.linkedin.com/in/aaron-zomback/" add target="_blank">LINKEDIN</a> // <a href="https://www.zomback.com/" add target="_blank">ZOMBACK.COM</p>
-  </section>
+<main role="main" class="container">
+  {{ content }}
+</main>
 
-</div>
+{% include footer.html %}
 
-
-
-    </div>
-  </div>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

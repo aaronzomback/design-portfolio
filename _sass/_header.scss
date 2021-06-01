@@ -1,68 +1,86 @@
 
+// header {
+//   display: flex;
+//   justify-content: flex-end;
+//   margin-top: 16px;
+//   height: 100px;
+//   vertical-align: center;
+//   align-items: center;
+
+//   h2 {
+//     margin-right: 40rem;
+//     font-size: 24px;
+//   }
+
+//   img {
+//     margin-right: 600px;
+//     width: auto;
+//   }
+
+// }
+
 header {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 16px;
-  height: 100px;
-  vertical-align: center;
-  align-items: center;
-
-  h2 {
-    margin-right: 40rem;
-    font-size: 24px;
-  }
-
-  img {
-    margin-right: 600px;
-    width: auto;
-  }
-
+    margin-bottom: 140px;
 }
 
 
+nav {
 
-
-header nav a {
-  margin-right: 120px;
-  text-decoration: none;
-  color: black;
-  position: relative;
-  padding-bottom: 8px;
-  font-family: $body-font;
-  font-size: 18px;
-
-
-   &:before,
-    &:after {
-        content: '';
-        position: absolute;
-        bottom: 2px;
-        left: 0; right: 0;
-        height: 0.8px;
-        background-color: black;
-    }
-    &:before {
-        opacity: 0;
-        transform: translateY(- $distance);
-        transition: transform 0s $easeOutBack, opacity 0s;
-    }
-    &:after {
-        opacity: 0;
-        transform: translateY($distance/2);
-        transition: transform $duration $easeOutBack, opacity $duration;
-    }
-    &:hover,
-    &:focus {
-        &:before,
-        &:after {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        &:before {
-            transition: transform $duration $easeOutBack, opacity $duration;
-        }
-        &:after {
-            transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
-        }
+    a {
+        color: black;
     }
 }
+
+.navbar-brand {
+    margin-left: 24px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 21px;
+}
+
+// header nav a {
+//   margin-right: 120px;
+//   text-decoration: none;
+//   color: black;
+//   position: relative;
+//   padding-bottom: 8px;
+//   font-family: $body-font;
+//   font-size: 18px;
+
+
+//    &:before,
+//     &:after {
+//         content: '';
+//         position: absolute;
+//         bottom: 2px;
+//         left: 0; right: 0;
+//         height: 0.8px;
+//         background-color: black;
+//     }
+//     &:before {
+//         opacity: 0;
+//         transform: translateY(- $distance);
+//         transition: transform 0s $easeOutBack, opacity 0s;
+//     }
+//     &:after {
+//         opacity: 0;
+//         transform: translateY($distance/2);
+//         transition: transform $duration $easeOutBack, opacity $duration;
+//     }
+//     &:hover,
+//     &:focus {
+//         &:before,
+//         &:after {
+//             opacity: 1;
+//             transform: translateY(0);
+//         }
+//         &:before {
+//             transition: transform $duration $easeOutBack, opacity $duration;
+//         }
+//         &:after {
+//             transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
+//         }
+//     }
+// }

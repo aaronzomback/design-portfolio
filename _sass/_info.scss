@@ -1,5 +1,6 @@
 section.self  {
 
+
   img {
     width: 20%;
     display: block;
@@ -9,6 +10,7 @@ section.self  {
 
 .info {
   width: 800px;
+  height: 600px;
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -16,16 +18,16 @@ section.self  {
 
   p{
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 18px;
   }
 
 }
 
 
-
 button.CV {
   margin-top: 16px;
   border: 1.4px solid black;
+  border-radius: 2px;
   background-color: white;
   padding: 12px 24px;
   transition: 0.2s ease-in;
