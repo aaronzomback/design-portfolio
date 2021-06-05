@@ -1,15 +1,19 @@
 
 section.wrapper {
-  height: 800px;
+  height: 1100px;
 }
 
 section.self  {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 56px;
+  margin-bottom: 200px;
+  
 
   img {
-    width: 60%;
+    width: 360px;
     display: block;
   }
 }
@@ -17,10 +21,10 @@ section.self  {
 
 .info {
 
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 64px;
+  // margin-top: 40px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // margin-bottom: 64px;
 
   p{
     line-height: 1.5;
