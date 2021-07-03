@@ -1,7 +1,7 @@
 section.articles-index {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 1000px;
   margin-top: 2rem;
 
 
@@ -21,3 +21,11 @@ section.articles-index {
 
 }
 
+section.article {
+  img {
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
