@@ -1,8 +1,10 @@
 ---
-title: Testing post
+title: What is recursion?
 date: 2021-04-30 11:53:00 Z
 excerpt: Testing
 ---
+
+![3y9pghpnsf19nlvivn2r.jpeg](/uploads/3y9pghpnsf19nlvivn2r.jpeg)
 
 Comme on pouvait s’y attendre, le roi des cryptos s’y est vendu comme des petits pains. Les 11 lots proposés sont bien sûrs tous partis, pour un total de 487 000 dollars comme le rapporte The Block.
 
