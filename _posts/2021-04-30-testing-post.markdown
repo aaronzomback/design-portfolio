@@ -10,7 +10,7 @@ Comme on pouvait s’y attendre, le roi des cryptos s’y est vendu comme des pe
 
 Cela donne une moyenne globale de prix par bitcoin de près de 51 535 dollars, ce qui est déjà une bonne affaire, avec un cours du BTC déjà revenu aux environs des 55 000 dollars au moment d’écrire ces lignes. Dans le détails, certains ont même réalisé un sacré coup.
 
-`function paintFill (image, point, newColor) {
+```function paintFill (image, point, newColor) {
 
   // 1. we want to store the value at POINT index (2D) in a variable
   // 2. change this point value to the newColor value
@@ -37,7 +37,7 @@ Cela donne une moyenne globale de prix par bitcoin de près de 51 535 dollars, c
   return image;
 
 
-}`
+}```
 
 
 
