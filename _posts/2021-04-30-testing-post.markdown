@@ -6,6 +6,8 @@ excerpt: Testing
 
 ![3y9pghpnsf19nlvivn2r.jpeg](/uploads/3y9pghpnsf19nlvivn2r.jpeg)
 
-Article coming soon...
+What does it mean for a function to call itself? Recursive programming is a mind-bender if you haven't explored the topic before...
+
+[ Article coming soon.... ]
     
    
