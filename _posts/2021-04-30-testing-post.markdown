@@ -6,20 +6,8 @@ excerpt: Testing
 
 ![3y9pghpnsf19nlvivn2r.jpeg](/uploads/3y9pghpnsf19nlvivn2r.jpeg)
 
-Comme on pouvait s’y attendre, le roi des cryptos s’y est vendu comme des petits pains. Les 11 lots proposés sont bien sûrs tous partis, pour un total de 487 000 dollars comme le rapporte The Block.
+What does it mean for a function to call itself? Recursive programming is a mind-bender if you haven't explored the topic before...
 
-Cela donne une moyenne globale de prix par bitcoin de près de 51 535 dollars, ce qui est déjà une bonne affaire, avec un cours du BTC déjà revenu aux environs des 55 000 dollars au moment d’écrire ces lignes. Dans le détails, certains ont même réalisé un sacré coup.
-
+[ Article coming soon.... ]
     
-      let x = point[0];
-      let y =point[1];
-      let selectColor = image[x][y];
-      for (let i = 0; i < image.length; i++) {
-        for (let j = 0; j < image[i].length; j++) {
-          if (image[i][j] == selectColor) {
-            image[i][j] = newColor;
-          }
-        }
-      }
-      return image;
-    }
+   
