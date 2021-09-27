@@ -38,9 +38,9 @@ A factorial is when we take an integer *n* and we solve for the product of itsel
 
 As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 x 1 = 120.
 
-## Caveats & limitations
+## Limitations
 
-Unlock nature 
+Unlike in nature, computation involves limited resources such as memory.
 
 ## Wrap up 
 
