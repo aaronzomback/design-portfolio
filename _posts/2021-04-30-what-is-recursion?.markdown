@@ -14,7 +14,7 @@ Once we begin to identify situations in which recursion can be used to solve com
 
 Let's take for example the JavaScript function [JSON.stringify()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any JavaScript object or value into JSON string format.
 
-We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous in our universe.
+We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous.
 
 Taking a step back though from this expansive view of recursion, we can simplify its scope. Recursion in essence is the act of reducing a problem down to its most root element. That is a problem that has been referring to itself reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results and returning the output as a solution.
 
