@@ -10,7 +10,11 @@ excerpt: Testing
 
 To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it?*
 
-Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its elegant but mind-bending functionality. We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous in our universe.
+Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its elegant but mind-bending functionality.
+
+Let's take for the javascript [JSON.Stringify() function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any javascript object or value into [JSON](https://www.json.org/json-en.html) string format.
+
+We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous in our universe.
 
 Taking a step back though from this expansive view of recursion, we can simplify its scope. Recursion in essence is the act of reducing a problem down to its most root element. That is a problem that has been referring to itself reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results which then allows us to arrive at the solution. 
 
