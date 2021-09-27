@@ -36,6 +36,12 @@ Rather than visualize the stringify solution a more simple problem to express is
 
 A factorial is when take an integer *n* and we solve for the product of itself multiplied by all its previous (n-1) integers until reaching 1.
 
+As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 x 1 = 120.
+
+## Caveats & limitations
+
+Unlock nature 
+
 ## Wrap up 
 
 Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
