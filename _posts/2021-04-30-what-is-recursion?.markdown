@@ -6,9 +6,11 @@ excerpt: Testing
 
 ![martin-rancourt-IGTbJYQfusY-unsplash.jpg](/uploads/martin-rancourt-IGTbJYQfusY-unsplash.jpg)
 
-##### What does it mean for a function to call itself?
+## To recurse or not to recurse...
 
-Recursive programming is a mind-bender if you haven't explored the topic before...
+To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it?*
+
+Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its inscrutable nature which exists throughout our lives and our natural world.
 
     
    
