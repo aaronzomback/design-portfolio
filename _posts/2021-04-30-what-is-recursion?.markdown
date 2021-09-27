@@ -8,9 +8,9 @@ excerpt: Testing
 
 ## To recurse or not to recurse...
 
-To understand recursion, it's first helpful to pose the following question: why would we ever need to use it?
+To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it?*
 
-Once we begin to identify situations in which the application of recursion can be used to help solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its inscrutable nature which can be observed throughout our lives and our natural world.
+Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its inscrutable nature which exists throughout our lives and our natural world.
 
     
    
