@@ -40,7 +40,11 @@ As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 
 
 ## Limitations
 
-Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to not blow the call stack which will result in *stack overflow*. So one of the caveats of recursive functions is that they are relatively expensive in terms of allocating a machine's memory.
+Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to always include a base case so as not to blow the call stack resulting in *stack overflow*. 
+
+One of the caveats of recursive functions is that they are relatively expensive in terms of allocating a machine's memory. When we talk about Big O notation and complexity often times we can find more performant solutions without using recursion. 
+
+So despite its elegance and breadth of scope, we must be very selective when we choose to use it for a solution, keeping these limitations in mind.
 
 ## Wrap up 
 
