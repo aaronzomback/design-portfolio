@@ -61,6 +61,7 @@ function recursiveFactorial(n) {
     }
     return n * recursiveFactorial(n-1);
 }
+```
 
 ## Limitations
 
