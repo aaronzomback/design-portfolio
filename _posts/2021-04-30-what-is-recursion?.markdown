@@ -34,7 +34,7 @@ We'd then need to consider the cases when the inputs are not these primitive typ
 
 Rather than visualize the stringify solution a more simple problem to express is the classic factorial problem.
 
-A factorial is when take an integer *n* and we solve for the product of itself multiplied by all its previous (n-1) integers until reaching 1.
+A factorial is when we take an integer *n* and we solve for the product of itself multiplied by all its previous (n-1) integers until reaching 1.
 
 As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 x 1 = 120.
 
