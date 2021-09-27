@@ -16,7 +16,7 @@ Let's take for example the JavaScript ```JSON.Stringify()``` function. This func
 
 We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous in our universe.
 
-Taking a step back though from this expansive view of recursion, we can simplify its scope. Recursion in essence is the act of reducing a problem down to its most root element. That is a problem that has been referring to itself reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results which then allows us to arrive at the solution. 
+Taking a step back though from this expansive view of recursion, we can simplify its scope. Recursion in essence is the act of reducing a problem down to its most root element. That is a problem that has been referring to itself reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results and returning the output as a solution.
 
 Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
 
