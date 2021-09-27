@@ -10,7 +10,7 @@ excerpt: Testing
 
 Recursion is an extremely powerful concept and despite its functional elegance, quite often it's not so intuitive to understand. We're used to thinking linearly and with simple cause-effect relationships. So when we encounter the idea of something calling itself, things start to get fuzzy.
 
-To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it in the first place?* Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its profundity and its elegant but mind-bending functionality.
+To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it in the first place?* Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be too difficult or verbose to express, we can then begin to appreciate its profundity and its elegant but mind-bending functionality.
 
 Let's take for example the JavaScript function [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any JavaScript object or value into JSON string format. On the surface, this function may seem simple, but when we begin to input deeply nested objects containing different values such as arrays of arrays and other objects containing further key-value pairs, the goal of stringifying the entire input becomes much more cumbersome.
 
@@ -20,7 +20,7 @@ How can we write a function that'll be able to convert such complex objects, wit
 
 Recursion in essence is the act of reducing a problem down to its root or *atomic* element. This is when we have a problem that's been referring to itself, and it reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results and returning the output as a solution.
 
-The significance is that recursion allows us to write functions that'll jump into unknown depths and keep running deeper and deeper until an irreducible element is found. As stated above, once this *base condition* is met, the previous function calls finally return each of its previous values and we get our solution. 
+The significance is that recursion allows us to write functions that'll jump into unknown depths and keep running deeper and deeper until an irreducible element is found. As stated above, once this base condition is met, the previous function calls finally return each of its previous values and we get our solution. 
 
 This is can be visualized in a similar fashion with the inflating and subsequent popping of a balloon. The ballon keeps inflating and inflating until it reaches a point of resistance (it can no longer be inflated due to its pressure and limited capacity) and then pops back. When we have a function repeatedly calling itself, it populates the [call stack](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/) (with no chance of returning) until it reaches the root limitation and the values return back.
 
