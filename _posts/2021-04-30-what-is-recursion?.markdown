@@ -38,6 +38,18 @@ A factorial is when we take an integer *n* and we solve for the product of itsel
 
 As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 x 1 = 120.
 
+One way we could write a function to express the factorial of any integer is by using a simple for-loop:
+
+```
+function factorial(n) {
+   let product = n;
+  for (let i = n; i > 1; i--) {
+    product = product * (i - 1) 
+  }
+   return product;
+}
+```
+
 ## Limitations
 
 Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to always include a base case so as not to blow the call stack resulting in *stack overflow*. 
