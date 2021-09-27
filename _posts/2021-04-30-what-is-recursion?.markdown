@@ -63,6 +63,8 @@ function recursiveFactorial(n) {
 }
 ```
 
+Notice how we call our function successively on (n-1) until we reach our base case when n is equal to 1. From there all of our previous function calls return their values - the product of n * (n-1) for each call - and we get our solution.
+
 ## Limitations
 
 Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to always include a base case so as not to blow the call stack resulting in *stack overflow*. 
