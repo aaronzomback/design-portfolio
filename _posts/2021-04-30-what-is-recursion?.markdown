@@ -10,9 +10,7 @@ excerpt: Testing
 
 Recursion is an extremely powerful concept and despite its functional elegance, quite often it's not so intuitive to understand. We're used to thinking linearly and with simple cause-effect relationships. So when we encounter the idea of something calling itself, things start to get fuzzy.
 
-To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it?*
-
-Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its significance and its elegant but mind-bending functionality.
+To understand recursion, it's first helpful to pose the following question: *why would we ever need to use it in the first place?* Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its profundity and its elegant but mind-bending functionality.
 
 Let's take for example the JavaScript function [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any JavaScript object or value into JSON string format. On the surface, this function may seem simple, but when we begin to input deeply nested objects containing different values such as arrays of arrays and other objects containing further key-value pairs, the goal of stringifying the entire input becomes much more cumbersome.
 
