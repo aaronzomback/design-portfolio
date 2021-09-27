@@ -50,6 +50,18 @@ function factorial(n) {
 }
 ```
 
+However, for those who appreciate aesthetics, for-loops represent a less declarative style as compared to recursion which often reads more easily.
+
+For example, to implement this factorial recursively we'd write this:
+
+```
+function recursiveFactorial(n) {
+    if (n === 1) {
+     return 1;
+    }
+    return n * recursiveFactorial(n-1);
+}
+
 ## Limitations
 
 Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to always include a base case so as not to blow the call stack resulting in *stack overflow*. 
