@@ -22,9 +22,19 @@ The significance is that recursion allows us to write functions that'll jump int
 
 This is can be visualized in a similar fashion with the inflating and subsequent popping of a balloon. The ballon keeps inflating and inflating until it reaches a point of resistance - it can no longer be inflated due to its pressure and limited capacity - and then pops back. Similarly, when we have a function repeatedly calling itself, it populates the [call stack](https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/), with no chance of returning its values, until it reaches the root limitation and then finally the values are returned back.
 
-## Stringified using recursion
+## Stringified recursively
 
-How can we write a function that'll be able to convert such complex objects, with an unknown amount of depth, into strings? 
+How can we write a function that'll be able to convert such complex objects, with an unknown amount of depth, into strings?
+
+A great approach towards solving these problems is to identify the simplest cases. In the stringify case, these would mostly be when the values are the primitive types: string, number, boolean, & undefined. These are our base cases and each time we encounter these they can be transformed into strings with a single operation.
+
+We'd then need to consider the cases when the inputs are not these primitive types but rather the mutable types such as objects and arrays. In these instances, we'd continue to call the function on itself until reaching one of the previous base cases. We are aggressively diving into each mutable data type until reaching its irreducible terms.
+
+## Recursive code
+
+Rather than visualize the stringify solution a more simple problem to express is the classic factorial problem.
+
+## Wrap up 
 
 Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
 
