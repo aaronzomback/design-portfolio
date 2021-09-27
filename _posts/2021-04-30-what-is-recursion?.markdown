@@ -75,11 +75,11 @@ So despite its elegance and breadth of scope, we must be very selective when we 
 
 ## Wrap up 
 
-We can find the concept of recursion expressed throughout nature from the biological growth of plants to snowflakes to the mathematical modeling of fractals.
+We can find the concept of recursion or *self-similarity* expressed throughout nature from the biological growth of plants to snowflakes to the mathematical modeling of fractals.
 
-A way to view recursion is as an extremely aggressive diving function. It's automated to dive deeper and deeper into the problem until it reaches the core as if it were jumping through the same hoops until finding the root.
+A way to view recursion is as an extremely aggressive diving function that refers to itself. It's automated to dive deeper and deeper into the problem, calling itself, until it reaches the core - as if it were jumping through the same hoops until finding the root.
 
-It's a powerful way to express solutions for problems that otherwise would be too cumbersome to write.
+It's an often powerful way to express solutions for problems that otherwise would be too cumbersome to write.
 
 ![200.gif](/uploads/200.gif)
 
