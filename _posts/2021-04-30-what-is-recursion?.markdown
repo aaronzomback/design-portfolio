@@ -34,6 +34,8 @@ We'd then need to consider the cases when the inputs are not these primitive typ
 
 Rather than visualize the stringify solution a more simple problem to express is the classic factorial problem.
 
+A factorial is when take an integer *n* and we solve for the product of itself multiplied by all its previous (n-1) integers until reaching 1.
+
 ## Wrap up 
 
 Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
