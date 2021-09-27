@@ -18,9 +18,9 @@ Let's take for example the JavaScript function [JSON.stringify()](https://develo
 
 How can we write a function that'll be able to convert such complex objects, with an unknown amount of depth, into strings? 
 
-We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous.
+Recursion in essence is the act of reducing a problem down to its most root element. This is when we have a problem that's been referring to itself, and it reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results and returning the output as a solution.
 
-Taking a step back though from this expansive view of recursion, we can simplify its scope. Recursion in essence is the act of reducing a problem down to its most root element. That is a problem that has been referring to itself reaches a point at which it can no longer be reduced to simpler terms. Once we've reduced the problem to its root element or *base case*, we then return back upwards integrating the results and returning the output as a solution.
+The significance is that recursion allows us to write functions that'll jump into unknown depths and keep running deeper and deeper until an irreducible element is found. As stated above, once this *base condition* is met, the previous function calls finally return each of its previous values and we get our solution.
 
 Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
 
