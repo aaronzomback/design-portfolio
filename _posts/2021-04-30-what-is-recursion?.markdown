@@ -6,7 +6,9 @@ excerpt: Testing
 
 ![martin-rancourt-IGTbJYQfusY-unsplash.jpg](/uploads/martin-rancourt-IGTbJYQfusY-unsplash.jpg)
 
-What does it mean for a function to call itself? Recursive programming is a mind-bender if you haven't explored the topic before...
+## What does it mean for a function to call itself?
+
+Recursive programming is a mind-bender if you haven't explored the topic before...
 
     
    
