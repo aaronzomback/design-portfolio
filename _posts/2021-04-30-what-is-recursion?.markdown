@@ -12,7 +12,7 @@ To understand recursion, it's first helpful to pose the following question: *why
 
 Once we begin to identify situations in which recursion can be used to solve computational problems that would otherwise be difficult or *verbose* to express, we can then begin to appreciate its power and its elegant but mind-bending functionality.
 
-Let's take for example the JavaScript function [JSON.stringify()(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any JavaScript object or value into JSON string format. On the surface, this function may seem simple, but when we begin to input deeply nested objects containing different values such as arrays of arrays and other objects containing further key-value pairs, the goal of stringifying the entire input becomes much more cumbersome.
+Let's take for example the JavaScript function [JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify). This function transforms any JavaScript object or value into JSON string format. On the surface, this function may seem simple, but when we begin to input deeply nested objects containing different values such as arrays of arrays and other objects containing further key-value pairs, the goal of stringifying the entire input becomes much more cumbersome.
 
 We can observe the expression of recursion throughout nature, from the biological growth of plants to the mathematical modeling of fractals. The concept of self-similarity or something calling upon itself is ubiquitous.
 
