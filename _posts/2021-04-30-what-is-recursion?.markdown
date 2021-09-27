@@ -14,7 +14,8 @@ Once we begin to identify situations in which recursion can be used to solve com
 
 Let's take for example the JavaScript 
 
-`section.article {
+```
+section.article {
 height: 5000px;
   img {
     display: block;
@@ -28,7 +29,8 @@ height: 5000px;
     font-size: 40px;
     font-weight: 600;
   }
-}`
+}
+```
 
 
 function. This function transforms any JavaScript object or value into [JSON](https://www.json.org/json-en.html) string format.
