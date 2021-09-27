@@ -40,7 +40,7 @@ As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 
 
 ## Limitations
 
-Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to not blow the call stack which will result in *stack overflow*.
+Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to not blow the call stack which will result in *stack overflow*. So one of the caveats of recursive functions is that they are relatively expensive in terms of allocating a machine's memory.
 
 ## Wrap up 
 
