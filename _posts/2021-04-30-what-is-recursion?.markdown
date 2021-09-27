@@ -75,7 +75,11 @@ So despite its elegance and breadth of scope, we must be very selective when we 
 
 ## Wrap up 
 
-Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
+We can find the concept of recursion expressed throughout nature from the biological growth of plants to snowflakes to the mathematical modeling of fractals.
+
+A way to view recursion is as an extremely aggressive diving function. It's automated to dive deeper and deeper into the problem until it reaches the core as if it were jumping through the same hoops until finding the root.
+
+It's a powerful way to express solutions for problems that otherwise would be too cumbersome to write.
 
 ![200.gif](/uploads/200.gif)
 
