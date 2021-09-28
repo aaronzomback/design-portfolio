@@ -34,9 +34,52 @@ We'd then need to consider the cases when the inputs are not these primitive typ
 
 Rather than visualize the stringify solution a more simple problem to express is the classic factorial problem.
 
+A factorial is when we take an integer *n* and we solve for the product of itself multiplied by all its previous (n-1) integers until reaching 1.
+
+As an example, lets take the number 5. The factorial of 5 (5!) is 5 x 4 x 3 x 2 x 1 = 120.
+
+One way we could write a function to express the factorial of any integer is by using a simple for-loop:
+
+```
+function factorial(n) {
+   let product = n;
+  for (let i = n; i > 1; i--) {
+    product = product * (i - 1) 
+  }
+   return product;
+}
+```
+
+However, for those who appreciate aesthetics, for-loops represent a less declarative style as compared to recursion which often reads more easily.
+
+For example, to implement this factorial recursively we'd write this:
+
+```
+function recursiveFactorial(n) {
+    if (n === 1) {
+     return 1;
+    }
+    return n * recursiveFactorial(n-1);
+}
+```
+
+Notice how we call our function successively on (n-1) until we reach our base case when n is equal to 1. From there all of our previous function calls return their values - the product of n * (n-1) for each call - and we get our solution.
+
+## Limitations
+
+Unlike in nature, computation involves limited resources such as memory. We must be very careful when we write recursive functions to always include a base case so as not to blow the call stack resulting in *stack overflow*. 
+
+One of the caveats of recursive functions is that they are relatively expensive in terms of allocating a machine's memory. When we talk about Big O notation and complexity often times we can find more performant solutions without using recursion. 
+
+So despite its elegance and breadth of scope, we must be very selective when we choose to use it for a solution, keeping these limitations in mind.
+
 ## Wrap up 
 
-Another way to view recursion is as an extremely aggressive function. It automatically dives deeper and deeper into the problem until it reaches the core, as if it were jumping through the same hoops until finding the root.
+We can find the concept of recursion or *self-similarity* expressed throughout nature from the biological growth of plants to snowflakes to the mathematical modeling of fractals.
+
+A way to view recursion is as an extremely aggressive diving function that refers to itself. It's automated to dive deeper and deeper into the problem, calling itself, until it reaches the core - as if it were jumping through the same hoops until finding the root.
+
+It's an often powerful way to express solutions for problems that otherwise would be too cumbersome to write.
 
 ![200.gif](/uploads/200.gif)
 
