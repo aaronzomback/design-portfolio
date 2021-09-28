@@ -16,14 +16,14 @@ void main(void)
 {
     vec2 uv = v_texcoord;
     
-    vec4 tl = rgb(150.0, 167.0, 253.0);
-    vec4 tr = rgb(255.0, 255.0, 255.0);
-    vec4 bl = rgb(255.0, 67.0, 89.0);
-    vec4 br = rgb(224.0, 255.0, 234.0);
+    vec4 tl = rgb(213.0, 239.0, 209.0);
+    vec4 tr = rgb(222.0, 225.0, 255.0);
+    vec4 bl = rgb(54.0, 72.0, 235.0);
+    vec4 br = rgb(255.0, 255.0, 255.0);
 
     
     float dispY = 0.09 * sin(u_time);
-    float dispX = 0.09 * sin(u_time);
+    float dispX = 0.03 * sin(u_time);
     
     vec4 color = mix(
         mix(tl, tr, uv.x + dispX),
